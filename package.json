@@ -1,8 +1,10 @@
 {
   "name": "foodserver",
-  "version": "1.0.0",
-   "description": "",
-  "main": "index.js",
+  "version": "1.0",
+  "dependencies": {
+    "dependency1": "^1.0",
+    "dependency2": "^1.0"
+  }
   "scripts": {
    "start": "node Index.js",
     "dev": "nodemon index.js",
